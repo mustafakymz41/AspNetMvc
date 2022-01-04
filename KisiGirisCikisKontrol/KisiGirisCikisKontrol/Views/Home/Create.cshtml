@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+    <title>
+        Kişi Giriş Çıkış Tutma Programı
+    </title>
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h3>Create Person</h3>
+        <form action="/Home/CreatePerson" method="post">
+            <div class="form-group">
+                <label type="text">First Name</label>
+                <input type="text" name="FirstName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label type="text">Last Name</label>
+                <input type="text" name="LastName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label type="text">Tc No</label>
+                <input type="text" name="TcNo" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label type="text">Hes Kod</label>
+                <input type="text" name="HesKod" class="form-control" />
+            </div>
+       @*     <div class="form-group">
+                <label type="text">login Time</label>
+                <input type="datetime" name="loginTime" class="form-control" />
+            </div>*@
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-primary">Create</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

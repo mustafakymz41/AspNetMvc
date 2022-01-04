@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fpt7zRl5RWQ/O64jj4Ub5CxwEPNGCYWGGUShWdlfMMzvBzNVl2Qmb1s0RK+3W8dfM2f8AxXb+OvlsHnkkoH4IA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mustafa\\source\\repos\\KisiGirisCikisKontrol\\KisiGirisCikisKontrol\\KisiGirisCikisKontrol.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mustafa\\.nuget\\packages\\microsoft.odata.edm\\7.9.4\\microsoft.odata.edm.7.9.4.nupkg.sha512",
+    "C:\\Users\\mustafa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\mustafa\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\mustafa\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

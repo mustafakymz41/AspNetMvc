@@ -1,0 +1,40 @@
+﻿@model List<KisiGirisCikisKontrol.Models.PersonLog>
+<html>
+<head>
+    <title>
+        Kişi Giriş Çıkış Tutma Programı
+    </title>
+    @*<link href="~/wwwroot/twitter-bootstrap/css/bootstrap.csss" rel="stylesheet" />*@
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <h3>Çıkış Yapanlar</h3>
+    <a type="button" class="btn btn-success" href="/Home/Index">Ana Sayfaya Dön</a>
+    <table class="table table-hover table-bordered" style="margin-top:15px">
+
+        <thead>
+            <tr class="h4">
+                <td>FirstName</td>
+                <td>LastName</td>
+                <td>TcNo</td>
+                <td>Hes Kod</td>
+                <td>Exit</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.TcNo</td>
+                    <td>@item.HesKod</td>
+                    <td>@item.ExitTime</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+
